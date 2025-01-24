@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Ignacio Andres Ramírez Lambert</title>
+    <link rel="stylesheet" href="./assets/Static/styles/style.css">
+    <script src="index.js"></script>
+</head>
+<body>rmdir /s /q .git
+
+    <div class="container">
+        <header>
+            
+            <img src="./assets/imgs/FOTO_DE_PERFIL.jpg" alt="imagen de un hombre guapo" width="120" border="2">
+            <br>
+            <br>
+            <h1>Ignacio Andrés Ramírez Lambert</h1>
+            <h2>Ingeniero Comercial / Data Scientist / Full Stack / Scrum Master </h2>
+        </header>
+        <section class="personal-info">
+            <h3>Datos Personales</h3>
+            <p><strong>Nombre:</strong> Ignacio Andrés Ramírez Lambert</p>
+            <p><strong>Email:</strong> ignacio.rlambert@gmail.com</p>
+            <p><strong>Portafolio:</strong><a href="./portafolio.html" target="_blank"> Has click aquí</a></p>
+            <p><strong>Teléfono:</strong> +56976231513</p>
+            <p><strong>Dirección:</strong> Alto Pinar 1200, 8340518 Puente Alto, Chile</p>
+            <p><strong>Género:</strong> Hombre</p>
+            <p><strong>Nacionalidad:</strong> Chileno</p>
+            <p><strong>LinkedIn:</strong> <a href="http://linkedin.com/in/ignacio-andres-ramírez-lambert-b0a96773" target="_blank">Perfil LinkedIn</a></p>
+        </section>
+        <section class="certifications">
+            <h3>Certificaciones</h3>
+            <ul id="lista">
+                <li><a href="javascript:void(0);" onmouseover="mostrarImagen('./assets/imgs/Certificado_Power_BI.png')" onmouseout="ocultarImagen()">Power BI</a></li>
+                <li><a href="javascript:void(0);" onmouseover="mostrarImagen('./assets/imgs/Certificado_Python_Analisis_de_datos.png')" onmouseout="ocultarImagen()">Python</a></li>
+                <li><a href="javascript:void(0);" onmouseover="mostrarImagen('./assets/imgs/Certificado_SAP_FI.png')" onmouseout="ocultarImagen()">SAP FI - Key User Experto</a></li>
+                <li><a href="javascript:void(0);" onmouseover="mostrarImagen('./assets/imgs/Certificado_SAP_PS.png')" onmouseout="ocultarImagen()">SAP PS - Gestión de Proyectos</a></li>
+                <li><a href="javascript:void(0);" onmouseover="mostrarImagen('./assets/imgs/Certificado_Machine_Learning.png')" onmouseout="ocultarImagen()">Machine Learning</a></li>
+                <li><a href="javascript:void(0);" onmouseover="mostrarImagen('./assets/imgs/Certificado_Python_Analisis_estadístico.png')" onmouseout="ocultarImagen()">Análisis Estadístico con Python</a></li>
+                <li><a href="javascript:void(0);" onmouseover="mostrarImagen('./assets/imgs/Certificado_Redes_Neuronales.png')" onmouseout="ocultarImagen()">Redes Neuronales y Modelos avanzados con Python</a></li>
+                <li><a href="javascript:void(0);" onmouseover="mostrarImagen('./assets/imgs/Certificado_Scrum_master.png')" onmouseout="ocultarImagen()">Scrum Master</a></li>
+                <li><a href="javascript:void(0);" onmouseover="mostrarImagen('./assets/imgs/Certificado_Python_Analisis_de_datos.png')" onmouseout="ocultarImagen()">Análisis de Datos con Python</a></li>
+                <li><a href="javascript:void(0);" onmouseover="mostrarImagen('./assets/imgs/Certificado_SQL_Server.png')" onmouseout="ocultarImagen()">SQL</a></li>
+                <li><a href="javascript:void(0);" onmouseover="mostrarImagen('./assets/imgs/Certificado_Git_y_Github.png')" onmouseout="ocultarImagen()">GitHub</a></li>
+            </ul>
+            
+            <!-- Contenedor de la imagen emergente -->
+            <div id="imagenEmergente" style="display: none; position: absolute; z-index: 999; border: 1px solid #ccc; padding: 10px; background-color: white;">
+                <img id="imagenPreview" src="" alt="Vista previa" style="max-width: 300px;">
+            </div>
+            
+        </section>
+        <section class="profile">
+            <h3>Perfil Profesional</h3>
+            <p>Ingeniero Comercial con especialización en Ciencia de Datos y Análisis Financiero, con 8 años de experiencia en el análisis de datos, control de gestión, y desarrollo de sistemas analíticos avanzados. Experto en el uso de herramientas como Python, SQL, Power BI y Tableau para extraer, transformar y visualizar datos, generando insights accionables para la toma de decisiones estratégicas. Proactivo, analítico y orientado a la resolución efectiva de problemas con habilidades de liderazgo en la coordinación de equipos de trabajo.</p>
+        </section>
+        <section class="education">
+            <h3>Formación</h3>
+            <p><strong>Universidad Nacional Andrés Bello</strong> (sep 2011 - jun 2016)</p>
+            <p>Ingeniero Comercial con Mención en Administración de Empresas; Licenciado en Ciencias Económicas y Administrativas</p>
+            <p><strong>Desafio Latam </strong>(abr 2023 - may 2024)</p>
+            <p>Data Analyst / Data Scientist</p>
+            <p><strong>Desafio Latam </strong>(nov 2024 - act)</p>
+            <p>Full Stack Developer</p>
+        </section>
+        <section class="experience">
+            <h3>Experiencia</h3>
+            <article>
+                <h4>Analista en Control de Gestión</h4>
+                <p><strong>Ministerio de Vivienda y Urbanismo</strong> (abr 2023 - dic 2023)</p>
+                <ul>
+                    <li>Análisis de datos financieros de diversas fuentes para garantizar su exactitud y confiabilidad.</li>
+                    <li>Interpretación de resultados financieros para identificar tendencias y áreas de mejora.</li>
+                    <li>Desarrollo de informes financieros detallados para la alta dirección.</li>
+                    <li>Creación de dashboards interactivos en Power BI para el monitoreo de KPI's ministeriales.</li>
+                    <li>Implementación de procesos automatizados para la actualización regular de dashboards.</li>
+                </ul>
+            </article>
+            <article>
+                <h4>Analista y Controlador Gerencial</h4>
+                <p><strong>ProVida AFP</strong> (mar 2018 - dic 2022)</p>
+                <ul>
+                    <li>Extracción, transformación y carga de datos (ETL) utilizando SQL para análisis comerciales.</li>
+                    <li>Desarrollo de dashboards en Power BI para la visualización de datos comerciales.</li>
+                    <li>Análisis de grandes volúmenes de datos para identificar tendencias y oportunidades de mejora.</li>
+                    <li>Fijación de metas comerciales y monitoreo continuo del progreso de ventas.</li>
+                    <li>Preparación de informes detallados sobre el desempeño de ventas y propuestas de acciones correctivas.</li>
+                </ul>
+            </article>
+            <article>
+                <h4>Coordinador de Proyectos</h4>
+                <p><strong>Banco Estado</strong> (oct 2016 - mar 2018)</p>
+                <ul>
+                    <li>Coordinación integral de proyectos desde la planificación hasta la ejecución y cierre.</li>
+                    <li>Gestión de presupuestos, riesgos y cambios, asegurando el cumplimiento de los objetivos del proyecto.</li>
+                    <li>Comunicación continua con stakeholders y elaboración de informes de progreso.</li>
+                </ul>
+            </article>
+            <article>
+                <h4>Key Account Manager</h4>
+                <p><strong>MT Solutión Center</strong> (mar 2014 - oct 2016)</p>
+                <ul>
+                    <li>Asesoría experta en la implementación y optimización de soluciones SAP.</li>
+                    <li>Desarrollo de estrategias de negocio y gestión de proyectos complejos de implementación SAP.</li>
+                    <li>Gestión y ampliación de cartera de clientes.</li>
+                    <li>Head hunting de Crowdsolvers SAP (Consultores Cross Módulo).</li>
+                </ul>
+            </article>
+        </section>
+        <section class="skills">
+            <h3>Habilidades</h3>
+            <ul>
+                <li>Power BI</li>
+                <li>Python para el análisis, transformación, carga de datos y visualizaciónes</li>
+                <li>Scrum Master (Metodologías Ágiles)</li>
+                <li>SAP FI-PS-ABAP-MM</li>
+                <li>Toma de Decisiones</li>
+                <li>Trabajo en Equipo</li>
+                <li>SQL y Bases de datos</li>
+            </ul>
+        </section>
+        <section class="languages">
+            <h3>Idiomas</h3>
+            <p><strong>Español:</strong> Nativo</p>
+            <p><strong>Inglés:</strong> Avanzado</p>
+        </section>
+    </div>
+</body>
+<footer>
+    <p class="footer">Todos los derechos reservados</p>
+</footer>
+</html>

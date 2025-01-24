@@ -1,0 +1,86 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #333;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #666;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h3 {
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+    color: #007BFF;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+#imagenEmergente {
+    max-width: 500px;
+    max-height: 600px;
+    overflow: auto;
+}
+#imagenPreview {
+    max-width: 100%;
+    max-height: 100%;
+}
+#imagenPreview object {
+    width: 100%;
+    height: 500px;
+}
+.footer{
+    text-align: center;
+    align-content: center;
+}
+div.tabla{
+    justify-content: center;
+    display: flex;
+    height: 90vh;
+}
+h1.titulo-portafolio{
+    font-size: 2em;
+    color:#007BFF;
+    justify-content: center; 
+    text-align: center;
+}
