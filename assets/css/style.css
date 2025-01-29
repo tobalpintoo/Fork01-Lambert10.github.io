@@ -84,3 +84,7 @@ h1.titulo-portafolio{
     justify-content: center; 
     text-align: center;
 }
+
+.icons-pad {
+    padding-right: 5px;
+}
